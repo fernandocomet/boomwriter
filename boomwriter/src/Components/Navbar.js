@@ -2,29 +2,18 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import boomwriter from './img/boomwriter.png';
+import boomwriter from '../img/boomwriter.png';
 
 
 class Navbar extends Component{
 
     render(){
-        // const menuLinks = this.props.menu.map(item => (
-        //     <div className="navbar-item" key={item.name}>
-        //         <NavLink exact to={`/${item.name}`}>
-        //             {item.name}
-        //         </NavLink>
-        //     </div>
-        //     <nav className="navbar navbar-light bg-light">
-        //         {menuLinks}
-        //     </nav>
-        // ))
 
-          /*
+  /*
   1. boomwriter homepage: https://boomwriter.com
   2. boomwriter activities: https://boomwriter.com/tools
   3. boomwriter pricing: https://boomwriter.com/pricing-plus
   */
-  
 
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-light">

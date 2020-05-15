@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import boomwritermedia from './img/boomwritermedia.png';
+import boomwritermedia from '../img/boomwritermedia.png';
 
 class Footer extends Component{
 

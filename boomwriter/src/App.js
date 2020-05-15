@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Routes from './Routes';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Routes from './Components/Routes';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 class App extends Component{
 
@@ -24,9 +24,7 @@ class App extends Component{
     return (
         <div className="container-fluid">
             <Navbar menu={this.props.menu} />
-            <div className="container">
-                <Routes />
-            </div>
+            <Routes />
             <Footer />
         </div>
       );
