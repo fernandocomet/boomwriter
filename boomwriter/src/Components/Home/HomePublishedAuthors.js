@@ -16,7 +16,7 @@ class HomePublishedAuthors extends Component{
                         <div className="col-6">
                             <h1>Turn your students into published authors</h1>
                             <p>Kick-off a collaborative writing project and let every student writer take home a copy of their book</p>
-                            <button type="button" class="btn btn-outline-primary btn-lg">Start my story</button>
+                            <button type="button" className="btn btn-outline-primary btn-lg">Start my story</button>
                         </div>
                         <div className="col-6 ">
                             <img src={computer} width="370px"/>
@@ -36,7 +36,7 @@ class HomePublishedAuthors extends Component{
                         </div>
                         <div className="col-6">
                             <p>Our curated and expansive collection of story starts are created by an ever-growing assortment of renowned authors and personalities. All accessible in our writing app.</p>
-                            <button type="button" class="btn btn-outline-primary btn-lg">Join now to access story starts</button>
+                            <button type="button" className="btn btn-outline-primary btn-lg">Join now to access story starts</button>
                         </div>
                     </div>
                 </div>

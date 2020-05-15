@@ -14,11 +14,11 @@ class HomeRemote extends Component{
                         <img src={boomwriter_remote} width="270px" />
                         <div className="container d-flex flex-column justify-content-center mt-5">
                             <div className="container d-flex flex-row justify-content-center">
-                                <button type="button" class="btn btn-outline-primary btn-sm">Remote teaching guide</button>
-                                <button type="button" class="btn btn-outline-primary btn-sm">Student onboarding</button>
+                                <button type="button" className="btn btn-outline-primary btn-sm">Remote teaching guide</button>
+                                <button type="button" className="btn btn-outline-primary btn-sm">Student onboarding</button>
                             </div>
                             <div className="container">
-                                <button type="button" class="btn btn-primary btn-sm mt-3">Watch out our video on remote learning</button>
+                                <button type="button" className="btn btn-primary btn-sm mt-3">Watch out our video on remote learning</button>
                             </div>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ class HomeRemote extends Component{
                             <div className="mb-3">
                                 <img src={boomwriter_students} width="270px" />
                             </div>
-                            <button type="button" class="btn btn-secondary btn-sm ">Learn more</button>
+                            <button type="button" className="btn btn-secondary btn-sm ">Learn more</button>
                         </div>
                     </div>
                 </div>

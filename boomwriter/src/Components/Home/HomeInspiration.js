@@ -11,7 +11,7 @@ class HomeInspiration extends Component{
                         <div className="col">
                             <h1>BoomWriter inspires students to write on any subject.</h1>
                             <p>Try it for ELA, Social Studies/History, Science and even Math. Plus, it can be used on any device.</p>
-                            <button type="button" class="btn btn-lg btn-outline-primary">Sign up for free as a teacher</button>
+                            <button type="button" className="btn btn-lg btn-outline-primary">Sign up for free as a teacher</button>
                         </div>
                         <div className="col">
                             <img src={inspiration} height="250px" />

@@ -17,9 +17,9 @@ class HomeHero extends Component{
                              <p className="lead">The writing app for teachers to conduct remote learning activities with students.</p>
                              <p className="lead">Sign up for free:</p>
                              <div className="d-flex flex-column">
-                                <button type="button" class="btn btn-outline-secondary btn-lg"><img src={hero_teacher} height="60px" />Teacher</button>
-                                <button type="button" class="btn btn-outline-secondary btn-lg"><img src={hero_student} height="60px" />Student</button>
-                                <button type="button" class="btn btn-outline-secondary btn-lg"><img src={hero_parent} height="60px" />Parent</button>
+                                <button type="button" className="btn btn-outline-secondary btn-lg"><img src={hero_teacher} height="60px" />Teacher</button>
+                                <button type="button" className="btn btn-outline-secondary btn-lg"><img src={hero_student} height="60px" />Student</button>
+                                <button type="button" className="btn btn-outline-secondary btn-lg"><img src={hero_parent} height="60px" />Parent</button>
                             </div>
                         </div>
                         <div className="col-8"></div>
