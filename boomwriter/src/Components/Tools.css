@@ -1,0 +1,11 @@
+.toolbox{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.letter{
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+}

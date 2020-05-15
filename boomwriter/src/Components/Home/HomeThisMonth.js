@@ -30,18 +30,24 @@ class HomeThisMonth extends Component{
 
     render(){
         return(
-            <div className="container-fluid border">
-                <div className="container">
-                    <h1>This is HomeThisMonth</h1>
-                    <div className="row">
-                        <div className="col">
-                        1 of 3
+            <div className="container-fluid border bg-light">
+                <div className="container text-center">
+                    <h1>This month on BoomWriter</h1>
+                    <div className="row text-center">
+                        <div className="col bg-white">
+                            <i classNAme="fas fa-pen-square fa-3x"></i>
+                            <h2 className="text-secondary">XXXX</h2>
+                            <h2>Writers</h2>
                         </div>
-                        <div className="col">
-                        2 of 3
+                        <div className="col bg-white">
+                            <i classNAme="fas fa-book-open fa-3x"></i>
+                            <h2 className="text-primary">XXXX</h2>
+                            <h2>Activities</h2>
                         </div>
-                        <div className="col">
-                        3 of 3
+                        <div className="col bg-white">
+                            <i classNAme="fas fa-map-marker-alt fa-3x"></i>
+                            <h2 className="text-success">XXXX</h2>
+                            <h2>Countries</h2>
                         </div>
                     </div>
                 </div>

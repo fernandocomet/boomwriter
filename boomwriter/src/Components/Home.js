@@ -15,7 +15,6 @@ class Home extends Component{
        
         return(
             <div className="container-fluid">
-                <h1>This is Home</h1>
                 <HomeHero />
                 <HomeToolkit />
                 <HomeInspiraton />
